@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Template Administrativo
 
-## Getting Started
+Aplicativo com funcionalidades básicas de administração de usuários. Serve como modelo e ponto de partida para desenvolvimento customizado.
 
-First, run the development server:
+## Front End
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- 2 sistemas de autenticação: com login e senha, e com login do Google.
+- Layout com SPA.
+- Escolha de temas: claro e escuro. A escolha permanece.
+- 3 módulos iniciais básicos: tela inicial, ajustes e configurações, e um de notificações.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Back End
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Banco de dados de usuários e autenticação em núvem com Google Firebase.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Tecnologias
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Google Firebase
+- Tailind CSS.
 
-## Learn More
+## Frameworks e Bibliotecas
 
-To learn more about Next.js, take a look at the following resources:
+- NextJS
+- React
+- Typescript
+- Tailwind CSS.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Mão na Massa!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Clone este repositório
+$ git clone https://github.com/aleperrod/admin-template.git
 
-## Deploy on Vercel
+# Acesse a pasta do projeto no terminal/cmd
+$ cd admin-template
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Instale as dependências
+$ npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
