@@ -25,16 +25,16 @@ Aplicativo com funcionalidades básicas de administração de usuários. Serve c
 - Typescript
 - Tailwind CSS.
 
-# Mão na Massa!
+## Mão na Massa!
 
-## Clone este repositório
+### Clone este repositório
 git clone https://github.com/aleperrod/admin-template.git
 
-## Acesse a pasta do projeto no terminal/cmd
+### Acesse a pasta do projeto no terminal/cmd
 > cd admin-template
 
-## Instale as dependências
+### Instale as dependências
 > npm install
 
-## Execute a aplicação em modo de desenvolvimento
+### Execute a aplicação em modo de desenvolvimento
 > npm start
